@@ -1,0 +1,18 @@
+body{
+    background-image: url(image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    /* From https://css.glass */
+background: rgba(135, 32, 124, 0.03);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(135, 32, 124, 1);
+}

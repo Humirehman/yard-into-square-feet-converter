@@ -2,21 +2,26 @@
 </head>
 
 <title>yard to  Ft^2  Converter</title>
+<link rel="stylesheet" href="style.css">
 <center><body class="body">
 
 <div class="bodyleft">
+</div>
+
+        
    
+
 
 
 <form onsubmit="doconvert(event)">
     <label for="yard">VALUE IN YARD:</label>
     <input class="placeholder" type="number" id="yard" placeholder="Enter yard" step="0.00001" required>
-    <br>
-    <br>
-    <input class="button" type="button" value="Convert" onclick="convertyardToSquareFeet()">
+    
+<input class="button" type="button" value="convert" onclick="ConvertYardToSquareFeet()">
+   
 </form>
-<p id="result">RESULT</p>
-</div>
+<p id="result">RESULT</p></div>   
+
 </center>
 
 <script src="script.mjs"></script>
